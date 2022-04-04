@@ -158,3 +158,16 @@ Rewards and level milestones TBC.
 ## Customisation
 
 ## Staff Commands
+Here is a list of available developer/staff commands.
+
+### Developer
+- `>config multiplier <new_multiplier>`: Updates the `global_multiplier`. For bonus exp events etc.
+- `>config timeout <new_timeout>`: Updates the `global_timeout`.
+- `>populate_xp_table`: Repopulates the exp table (for restoration purposes.)
+
+### Staff
+- `>resetxp <Member>`: Resets a member's experience back to 0.
+- `>setlevel <Level> <Member>`: Updates a member's level. This'll also update their exp.
+- `>setxp <Experience> <Member>`: Updates a member's experience. This'll also update their level.
+- `>setmultiplier <Multiplier> <Member>`: Sets a new `exp_multiplier` for a user. This'll overwrite the `global_multiplier`.
+- `>settimeout <Timeout> <Member>`: Sets a new default timeout for a user.
