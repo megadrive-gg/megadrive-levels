@@ -19,9 +19,10 @@ Design, development and documentation by Cyclicism.
    2A. [Experience Table](#experience-table)
 3. [Gaining Experience](#gaining-experience)<br/>
    3A. [Activities](#activities)
-4. [Rewards](#rewards)
-5. [Level Cards](#level-cards)
-6. [Customisation](#customisation)
+4. [Reputation](#reputation)
+5. [Rewards](#rewards)
+6. [Level Cards](#level-cards)
+7. [Customisation](#customisation)
 
 ## Experience
 
@@ -136,6 +137,8 @@ To start gaining experience @ The Megadrive, refer to the Activities list below.
 To avoid spam and level abuse, the level system has an in-built timeout feature which limits exp to one message per minute.
 
 If you're a common shitposter, this limit can increase.
+
+## Reputation
 
 ## Rewards
 
