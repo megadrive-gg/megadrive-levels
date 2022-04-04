@@ -134,7 +134,7 @@ To start gaining experience @ The Megadrive, refer to the Activities list below.
 - More TBC.
 
 ### Timeouts
-To avoid spam and level abuse, the level system has an in-built timeout feature which limits exp to one message per minute.
+To avoid spam and level abuse, the level system has an in-built timeout feature which limits exp to one message per 30 seconds.
 
 If you're a common shitposter, this limit can increase.
 
@@ -147,3 +147,5 @@ Rewards and level milestones TBC.
 ## Level Cards
 
 ## Customisation
+
+# Staff Commands
