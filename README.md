@@ -23,6 +23,7 @@ Design, development and documentation by Cyclicism.
 5. [Rewards](#rewards)
 6. [Level Cards](#level-cards)
 7. [Customisation](#customisation)
+8. [Developer/Staff Commands](#staff-commands)
 
 ## Experience
 
@@ -171,3 +172,10 @@ Here is a list of available developer/staff commands.
 - `>setxp <Experience> <Member>`: Updates a member's experience. This'll also update their level.
 - `>setmultiplier <Multiplier> <Member>`: Sets a new `exp_multiplier` for a user. This'll overwrite the `global_multiplier`.
 - `>settimeout <Timeout> <Member>`: Sets a new default timeout for a user.
+
+### Parameters:
+- `<Member>`: Represents a discord member. This can be a mention (@Member) or `user_id` (123456789101213).
+- `<Level>`: Represents an integer. Must be above 0 (Max. 127).
+- `<Experience>`: Represents an integer. Must be above 0 (Max. 200000000).
+- `<Multiplier>`: Represents an integer. Must be above 1 (Max. 10).
+- `<Timeout>:` Represents an integer (seconds.) Must be above 0 (Max. 100).
