@@ -1,23 +1,54 @@
 # Megadrive Levels
 
+Welcome to Megadrive Levels.
+
+Design, development and documentation by Cyclicism.
+
 ## Overview
 
+< Megadrive Levels overview. />
+
+> Remember, the level system is just for fun.
+> We're an archival server with a goal to keep data free and accessible to all. These levels weren't designed to hide nor restrict content, but to provide an incentive for members to interact with the server and engage in the community - and ultimately help build to our evergrowing collection of linux ISOs.<br/><br/>
+> Any specific data in the exclusive channels that you happen to request, we'll get it to you. We do not privatise information, and Megadrive will never participate in a false sense of exclusivity that many other servers/online forums try to advertise and enforce. Apples to oranges.<br/><br/>
+> ~ Keep information free.
+
 ## Contents
+1. [Introduction / Overview](#overview)
+2. [Experience](#experience)<br/>
+   2A. [Experience Table](#experience-table)
+3. [Gaining Experience](#gaining-experience)<br/>
+   3A. [Activities](#activities)
+4. [Rewards](#rewards)
+5. [Level Cards](#level-cards)
+6. [Customisation](#customisation)
 
 ## Experience
 
-Experience, referred to as `xp` or `exp` is a measure of progress in several activities @ The Megadrive. You can gain experience by contributing content, engaging with the server or by simply chatting to other members.
+Experience, referred to as `xp` or `exp` is a measure of engagement in several activities @ The Megadrive. You can gain experience by contributing content, interacting with the server or simply by chatting to other members.
 
-For a full list of activities that provide experience, see `Activities`.
+For a full list of activities that provide experience, see [Activities](#activities).
 
 Once reaching a certain ammount of experience points, members advance to the next respective level - which can unlock hidden channels and server benefits.
+
+### Experience per message
+The experience you receive per message depends on your current level, the message content as well as bonus multipliers.
+
+For reference, this simple formula rougly calculates the average given experience per message.<br/>
+`current_level * global_multiplier + random_exp`
+
+For example:
+- If you're level 10 - you'll receive ~ `17.5exp` per message.
+- If you're level 25 - you'll receive ~ `32.5exp` per message.
+
+In addition, each user has an individual `exp_multiplier`. Your individual multiplier will overwrite the `global_multiplier` if one has been set.
 
 ### Experience table
 
 <p float="left">
-  The difference between 
+  The difference between level
   <img src="https://i.imgur.com/4ECVyAG.png" width="26px"/> 
-   and
+   and level
   <img src="https://i.imgur.com/CK19tWg.png" width="26px"/>
    is
   <img src="https://i.imgur.com/zH1MFAR.png" width="104px"/>
@@ -27,7 +58,7 @@ Once reaching a certain ammount of experience points, members advance to the nex
   <img src="https://i.imgur.com/CK19tWg.png" width="26px"/>
 .</p>
 
-  | Level         | Exp           | Exp Difference |  Level         | Exp           | Exp Difference |
+  | Level         | Total Exp           | Exp Difference |  ...Level         | Total Exp           | Exp Difference |
   | ------------- | ------------- | -------------- |  ------------- | ------------- | -------------- |
   | 1 | 0 | Null | 64 | 407,015 | 38,416 | 
   | 2 | 83 | 83 | 65 | 449,428 | 42,413 |
@@ -93,9 +124,23 @@ Once reaching a certain ammount of experience points, members advance to the nex
   | 62 | 333,804 | 31,516 | 125 | 171,077,457 | 16,128,480 
   | 63 | 368,599 | 34,795 | 126 | 188,884,740 | 17,807,283 
   |    |         |        | Max | 200,000,000 | 11,115,260 
-  
-  > Developer's note: This experience table has been built for longevity. I don't actually expect anyone to reach > 60.
+
+## Gaining Experience
+To start gaining experience @ The Megadrive, refer to the Activities list below.
+
+### Activities
+- Sending messages. This will net you approximately `your current level` + `7.5 exp`.
+- More TBC.
+
+### Timeouts
+To avoid spam and level abuse, the level system has an in-built timeout feature which limits exp to one message per minute.
+
+If you're a common shitposter, this limit can increase.
 
 ## Rewards
+
+Rewards and level milestones TBC.
+
+## Level Cards
 
 ## Customisation
