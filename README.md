@@ -36,13 +36,15 @@ Once reaching a certain ammount of experience points, members advance to the nex
 The experience you receive per message depends on your current level, the message content as well as bonus multipliers.
 
 For reference, this simple formula rougly calculates the average given experience per message.<br/>
-`current_level * global_multiplier + random_exp`
+`current_level + random_exp * global_multiplier`.
+
+(The default multiplier is `1`, and `random_exp` is between 5 to 10.)
 
 For example:
 - If you're level 10 - you'll receive ~ `17.5exp` per message.
 - If you're level 25 - you'll receive ~ `32.5exp` per message.
 
-In addition, each user has an individual `exp_multiplier`. Your individual multiplier will overwrite the `global_multiplier` if one has been set.
+In addition, each user has an individual `exp_multiplier`. If one has been set, it will overwrite the `global_multiplier`. For more info on experience multipliers, see [Multipliers](#experience-multipliers).
 
 ### Experience table
 
@@ -130,13 +132,20 @@ In addition, each user has an individual `exp_multiplier`. Your individual multi
 To start gaining experience @ The Megadrive, refer to the Activities list below.
 
 ### Activities
-- Sending messages. This will net you approximately `your current level` + `7.5 exp`.
-- More TBC.
+- Sending messages. This will net you approximately `your current level` + `7.5 exp` * `multiplier`.
+- Reacting with stars. For a limited time, adding ⭐ stars will net you `5exp` * `multiplier`.
 
 ### Timeouts
-To avoid spam and level abuse, the level system has an in-built timeout feature which limits exp to one message per 30 seconds.
+To avoid spam and level abuse, the level system has an in-built timeout feature which limits exp to one interaction per 30 seconds.<br/>
+Ie. If you spam 10 messages within 30 seconds, you'll only gain exp for one message.
 
-If you're a common shitposter, this limit can increase.
+This is known as a `global_timout`.
+
+The timer starts from the **first** message and resets after 30 seconds. The timeout does not stack.
+
+If you're a common shitposter, this limit can increase (via the default `user_timeout`, overwriting the `global_timeout`.)
+
+### Experience Multipliers
 
 ## Reputation
 
@@ -148,4 +157,4 @@ Rewards and level milestones TBC.
 
 ## Customisation
 
-# Staff Commands
+## Staff Commands
