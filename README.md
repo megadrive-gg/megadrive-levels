@@ -135,6 +135,7 @@ To start gaining experience @ The Megadrive, refer to the Activities list below.
 ### Activities
 - Sending messages. This will net you approximately `your current level` + `7.5 exp` * `multiplier`.
 - Reacting with stars. For a limited time, adding ⭐ stars will net you `5exp` * `multiplier`.
+- More TBC.
 
 ### Timeouts
 To avoid spam and level abuse, the level system has an in-built timeout feature which limits exp to one interaction per 30 seconds.<br/>
@@ -147,6 +148,14 @@ The timer starts from the **first** message and resets after 30 seconds. The tim
 If you're a common shitposter, this limit can increase (via the default `user_timeout`, overwriting the `global_timeout`.)
 
 ### Experience Multipliers
+
+### Blacklist Channels
+There is also a selection of channels which have been blacklisted from giving experience. Some of these include:
+- Any active threads.
+- `#bot-spam`.
+- `#bot-stuff`.
+- `#levels`.
+- `#requests`.
 
 ## Reputation
 
