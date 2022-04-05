@@ -169,6 +169,14 @@ Reputation system still in development.
 Rewards and level milestones TBC.
 
 ## Level Cards
+Level cards (also known as rank cards) are an easy way to display your level progress - including your current rank, level, experience and the experience difference to your next level.
+
+To display your level card, use `>level` or `>rank` in a supported channel (currently `#bot-stuff`.)
+
+An example of a level card can be seen below.<br/><br/>
+![levelcard](https://cdn.discordapp.com/attachments/956116230274678804/960903023016693780/levelcard.png)
+
+> Please note: This level card is temporary. New mockups will be available shortly, with faster performance and better appearance.
 
 ## Customisation
 Customisation still in development.
