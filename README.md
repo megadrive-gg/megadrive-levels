@@ -157,6 +157,8 @@ There is also a selection of channels which have been blacklisted from giving ex
 - `#levels`.
 - `#requests`.
 
+In addition, all bot commands such as `>level`, `>stats`, `-whois` or `.fm` will not net experience in any channel.
+
 ## Reputation
 
 ## Rewards
