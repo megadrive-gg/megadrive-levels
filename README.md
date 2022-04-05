@@ -10,7 +10,7 @@ Design, development and documentation by Cyclicism.
 
 > Remember, the level system is just for fun.
 > We're an archival server with a goal to keep data free and accessible to all. These levels weren't designed to hide nor restrict content, but to provide an incentive for members to interact with the server and engage in the community - and ultimately help build to our evergrowing collection of linux ISOs.<br/><br/>
-> Any specific data in the exclusive channels that you happen to request, we'll get it to you. We do not privatise information, and Megadrive will never participate in a false sense of exclusivity that many other servers/online forums try to advertise and enforce. Apples to oranges.<br/><br/>
+> Any specific data in any channel that you happen to request, we'll get it to you. We're not trying to privatise information, and Megadrive will never participate in a false sense of exclusivity that many other servers/online forums try to advertise and enforce. Apples to oranges. The channels we offer are simply our own curations of data that is already available.<br/><br/>
 > ~ Keep information free.
 
 ## Contents
