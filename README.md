@@ -16,9 +16,12 @@ Design, development and documentation by Cyclicism.
 ## Contents
 1. [Introduction / Overview](#overview)
 2. [Experience](#experience)<br/>
-   2A. [Experience Table](#experience-table)
+   2A. [Experience Rate](#experience-per-message)<br/>
+   2B. [Experience Table](#experience-table)<br/>
 3. [Gaining Experience](#gaining-experience)<br/>
-   3A. [Activities](#activities)
+   3A. [Activities](#activities)<br/>
+   3B. [Timeouts](#timeouts)<br/>
+   3C. [Blacklist Channels](#blacklist-channels)<br/>
 4. [Reputation](#reputation)
 5. [Rewards](#rewards)
 6. [Level Cards](#level-cards)
@@ -160,14 +163,15 @@ There is also a selection of channels which have been blacklisted from giving ex
 In addition, all bot commands such as `>level`, `>stats`, `-whois` or `.fm` will not net experience in any channel.
 
 ## Reputation
+Reputation system still in development.
 
 ## Rewards
-
 Rewards and level milestones TBC.
 
 ## Level Cards
 
 ## Customisation
+Customisation still in development.
 
 ## Staff Commands
 Here is a list of available developer/staff commands.
