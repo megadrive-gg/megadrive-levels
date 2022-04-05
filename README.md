@@ -24,9 +24,10 @@ Design, development and documentation by Cyclicism.
    3C. [Blacklist Channels](#blacklist-channels)<br/>
 4. [Reputation](#reputation)
 5. [Rewards](#rewards)
-6. [Level Cards](#level-cards)
-7. [Customisation](#customisation)
-8. [Developer/Staff Commands](#staff-commands)
+6. [Autorole](#autorole)
+7. [Level Cards](#level-cards)
+8. [Customisation](#customisation)
+9. [Developer/Staff Commands](#staff-commands)
 
 ## Experience
 
@@ -167,6 +168,27 @@ Reputation system still in development.
 
 ## Rewards
 Rewards and level milestones TBC.
+
+## Autorole
+Megadrive Levels has built-in automation to ensure all members get their respective roles.
+
+By default, all members start at @Level 1.<br/>
+This means as soon as you get your first experience, or send your first message - you'll automatically be given the @Level 1 role, which'll then begin advancing to Level 2, Level 3 and so on.
+
+Level roles are given in intervals of 10, excluding starter Levels 1 and 5.
+
+Here is a list of available level roles.
+```
+@Level 1 (Default)
+@Level 5
+@Level 10
+@Level 20
+@Level 30
+@Level 40
+@Level 50
+```
+
+Each time you hit a new milestone/level role, Cycbot will ping you in the `#levels` channel notifying you and granting you the respective role. To disable this, simply mute the channel.
 
 ## Level Cards
 Level cards (also known as rank cards) are an easy way to display your level progress - including your current rank, level, experience and the experience difference to your next level.
