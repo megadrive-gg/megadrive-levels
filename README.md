@@ -206,6 +206,8 @@ Customisation still in development.
 ## Staff Commands
 Here is a list of available developer/staff commands.
 
+> Note to staff:~ Do not use `setxp` or `setlevel` to boost your own levels.
+
 ### Developer
 - `>config multiplier <new_multiplier>`: Updates the `global_multiplier`. For bonus exp events etc.
 - `>config timeout <new_timeout>`: Updates the `global_timeout`.
