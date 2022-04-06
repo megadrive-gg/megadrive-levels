@@ -138,7 +138,7 @@ To start gaining experience @ The Megadrive, refer to the Activities list below.
 
 ### Activities
 - Sending messages. This will net you approximately `your current level` + `7.5 exp` * `multiplier`.
-- Reacting with stars. For a limited time, adding ⭐ stars will net you `5exp` * `multiplier`.
+- `Disabled`. ~~Reacting with stars. For a limited time, adding ⭐ stars will net you `5exp` * `multiplier`.~~
 - More TBC.
 
 ### Timeouts
